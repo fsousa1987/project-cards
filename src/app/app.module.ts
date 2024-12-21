@@ -7,13 +7,15 @@ import {BalanceCardComponent} from './components/balance-card/balance-card.compo
 import {NgOptimizedImage} from '@angular/common';
 import {CreditCardComponent} from './components/credit-card/credit-card.component';
 import {DebitCardComponent} from './components/debit-card/debit-card.component';
+import {ClientInfosCardComponent} from './components/client-infos-card/client-infos-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BalanceCardComponent,
     CreditCardComponent,
-    DebitCardComponent
+    DebitCardComponent,
+    ClientInfosCardComponent
   ],
   imports: [
     BrowserModule,
