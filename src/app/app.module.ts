@@ -8,6 +8,7 @@ import {NgOptimizedImage} from '@angular/common';
 import {CreditCardComponent} from './components/credit-card/credit-card.component';
 import {DebitCardComponent} from './components/debit-card/debit-card.component';
 import {ClientInfosCardComponent} from './components/client-infos-card/client-infos-card.component';
+import {CardItemComponent} from './components/card-item/card-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {ClientInfosCardComponent} from './components/client-infos-card/client-in
     BalanceCardComponent,
     CreditCardComponent,
     DebitCardComponent,
-    ClientInfosCardComponent
+    ClientInfosCardComponent,
+    CardItemComponent
   ],
   imports: [
     BrowserModule,
