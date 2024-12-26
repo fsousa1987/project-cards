@@ -1,4 +1,4 @@
-import {Directive, HostBinding, Input} from '@angular/core';
+import {Directive} from '@angular/core';
 
 @Directive({
   selector: 'app-card-header',
@@ -6,6 +6,4 @@ import {Directive, HostBinding, Input} from '@angular/core';
   standalone: false
 })
 export class CardHeaderDirective {
-  @Input()
-  @HostBinding('class') color: string = '';
 }
